@@ -14,7 +14,7 @@ module.exports = {
             }
             var info = JSON.parse(result);
             var temps = [];
-            info.forEach(function(p) {
+            Object.keys(info).forEach(function(p) {
                 temps.push({
                     name: p.name,
                     description: p.description,
