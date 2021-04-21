@@ -1,3 +1,7 @@
+/**
+ * @author Karajan
+ * @description 调取组织下的项目列表信息
+ */
 var inquirer = require('inquirer');
 var jsonfile = require('jsonfile');
 var path = require("path");
@@ -14,7 +18,7 @@ module.exports = {
             }
             var info = JSON.parse(result);
             var temps = [];
-            Object.keys(info).forEach(function(p) {
+            info.forEach(function(p) {
                 temps.push({
                     name: p.name,
                     description: p.description,

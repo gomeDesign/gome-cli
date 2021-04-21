@@ -1,3 +1,7 @@
+/**
+ * @author Karajan
+ * @description 工具类
+ */
 var fs = require("fs-extra");
 var path = require("path");
 var decompress = require('decompress');

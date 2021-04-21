@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-
+/**
+ * @author Karajan
+ * @description cli工具入口
+ */
 var yargs = require("yargs");
 var info = require("./info.js");
 
