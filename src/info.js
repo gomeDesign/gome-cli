@@ -101,7 +101,7 @@ module.exports = {
                 name: "author",
                 message: "Author",
                 default: function() {
-                    return 'Gome-Cli';
+                    return 'Gome-Admin-Cli';
                 }
             }
         ];

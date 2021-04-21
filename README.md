@@ -1,11 +1,11 @@
-# gome-cli
+# gome-admin-cli
 
-> gome-cli 是 创建 gomecli 产品工程模板的命令行工具
+> gome-admin-cli 是 创建工程模板的命令行工具
 
 ## 安装
 
 ```bash
-npm install -g gome-cli
+npm install -g gome-admin-cli
 ```
 
 ## 使用

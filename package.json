@@ -1,7 +1,7 @@
 {
-  "name": "gome-cli",
-  "version": "0.0.1",
-  "description": "gomecli命令行工具，帮助开发人员快速创建gomecli项目工程",
+  "name": "gome-admin-cli",
+  "version": "0.0.2",
+  "description": "gomecli命令行工具，帮助开发人员快速创建项目工程",
   "scripts": {},
   "author": "Karajan",
   "bin": {
